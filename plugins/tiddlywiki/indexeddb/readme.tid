@@ -1,0 +1,4 @@
+title: $:/plugins/tiddlywiki/indexeddb/readme
+
+This plugin provides a syncadaptor for IndexedDB
+

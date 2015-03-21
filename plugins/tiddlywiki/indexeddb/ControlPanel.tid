@@ -1,0 +1,9 @@
+title: $:/plugins/tiddlywiki/indexeddb/ControlPanel
+caption: ~IndexedDB
+tags: $:/tags/ControlPanel
+
+<$indexeddbwidget>
+<$button message='tm-indexeddb-refresh-objectstore'>Refresh</$button>
+</$indexeddbwidget>
+
+{{$:/plugins/tiddlywiki/indexeddb/ObjectStores}}

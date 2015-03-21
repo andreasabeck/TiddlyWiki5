@@ -1,0 +1,8 @@
+{
+    "title": "$:/plugins/tiddlywiki/indexeddb",
+    "description": "Syncadaptor for IndexedDB",
+    "author": "Andreas Abeck",
+    "version": "0.0.1",
+    "core-version": ">=5.0.8",
+    "plugin-type": "plugin"
+}

@@ -1,0 +1,14 @@
+{
+	"description": "Demo for IndexedDB plugin",
+	"plugins": [
+		"tiddlywiki/indexeddb"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+	"build": {
+		"index": [
+			"--rendertiddler","$:/core/save/all","tw5indexeddb.html","text/plain"]
+	}
+}

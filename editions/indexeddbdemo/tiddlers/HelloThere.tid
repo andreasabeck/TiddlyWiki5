@@ -1,23 +1,27 @@
 title: HelloThere
 
-This is a TiddlyWiki plugin for syncing to IndexedDB.
+This is a ~TiddlyWiki plugin for syncing to ~IndexedDB.
 
 ! Installation
 
-To add the plugin to your own TiddlyWiki5, just drag this link to the browser window:
+To add the plugin to your own ~TiddlyWiki5, just drag this link to the browser window:
 
 [[$:/plugins/tiddlywiki/indexeddb]]
 
-! Using IndexedDB
+! Using ~IndexedDB
 
-IndexedDB is automatically used, when the plugin is added and a supported browser is detected.
+~IndexedDB is automatically used, when the plugin is added and a supported browser is detected.
 
 It has to be considered, that the data is stored within the browser, so using a different browser or a different user on the same machine would lead to another storage area being used. Also the storage depends on the domain being used to serve the wiki. When opening a file locally, file:// serves as the domain.
 
+This plugin also selects different storage areas dependent on the URL of the wiki. So in effect to local files that have different names or that are stored in different directories will result in a different storage area being used. You can see all storage areas being used in the "~IndexedDB" control panel tab.
+
+Remember: The data is stored unencrypted in your browser, so everybody having access to your browser can potentially read it. Most browsers support a developer mode to give access to ~IndexedDB data.
+
 ! Backups
 
-It is very important to take Backups of the Wiki by clicking on the "save" button. Every change done is automatically synced to IndexedDB but this should not be considered as a safe storage for various reasons:
+It is very important to take backups of the wiki by clicking on the "save" button. Every change done is automatically synced to ~IndexedDB but this should not be considered as a safe storage for various reasons:
 
 * A wipeout can be requested by the user accidentially (wipe all data stored option in various browsers)
-* The user is in "private mode", in that case IndexedDB content is wiped at the end of the session.
+* The user is in "private mode", in that case ~IndexedDB content is wiped at the end of the session.
 * The database could get corrupted
